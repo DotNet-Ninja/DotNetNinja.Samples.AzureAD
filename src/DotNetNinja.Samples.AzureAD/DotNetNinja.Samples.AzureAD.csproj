@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>3c1ca7a1-ded1-4818-80bf-3a605a35b1bf</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Identity.Web" Version="1.15.2" />
+    <PackageReference Include="Microsoft.Identity.Web.UI" Version="1.15.2" />
+  </ItemGroup>
+
+</Project>
