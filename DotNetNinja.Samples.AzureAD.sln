@@ -5,7 +5,14 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2772EF5D-5AC5-4BFD-8051-3C0A79B4B67D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNinja.Samples.AzureAD", "src\DotNetNinja.Samples.AzureAD\DotNetNinja.Samples.AzureAD.csproj", "{43DDA23C-A392-42E1-926A-5ADABD11041A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetNinja.Samples.AzureAD", "src\DotNetNinja.Samples.AzureAD\DotNetNinja.Samples.AzureAD.csproj", "{43DDA23C-A392-42E1-926A-5ADABD11041A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{E3604548-2C59-4D23-B5D4-F860FACF1AAE}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		License.txt = License.txt
+		ReadMe.md = ReadMe.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +22,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{43DDA23C-A392-42E1-926A-5ADABD11041A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -33,7 +37,13 @@ Global
 		{43DDA23C-A392-42E1-926A-5ADABD11041A}.Release|x86.ActiveCfg = Release|Any CPU
 		{43DDA23C-A392-42E1-926A-5ADABD11041A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{43DDA23C-A392-42E1-926A-5ADABD11041A} = {2772EF5D-5AC5-4BFD-8051-3C0A79B4B67D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A608AF7-5C86-4F5C-8E20-000D58416822}
 	EndGlobalSection
 EndGlobal
